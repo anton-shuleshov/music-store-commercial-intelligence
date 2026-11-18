@@ -1,0 +1,333 @@
+table 'Music Sales'
+	lineageTag: 41275502-cab9-474a-ac6b-7c707b074138
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		lineageTag: 457d3dd4-7038-4a8f-9017-6cafb6215c9f
+		summarizeBy: count
+		sourceColumn: CustomerID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FirstName
+		dataType: string
+		lineageTag: 00799cdc-db63-4932-93ce-7d3d37eebd3b
+		summarizeBy: none
+		sourceColumn: FirstName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastName
+		dataType: string
+		lineageTag: aa84755f-452c-4fa0-b002-77f248df447d
+		summarizeBy: none
+		sourceColumn: LastName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Company
+		dataType: string
+		lineageTag: 43e96791-ce86-40e9-be79-a4ec029f813e
+		summarizeBy: none
+		sourceColumn: Company
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 60d2014e-740a-4f9e-87c1-58fc0ec5f8d2
+		summarizeBy: none
+		sourceColumn: City
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column State
+		dataType: string
+		lineageTag: 40e04b1e-faa2-4f77-9f7b-e85b02bc9c0b
+		summarizeBy: none
+		sourceColumn: State
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 7835aa84-e72b-484c-8975-e57a1e5fcc04
+		summarizeBy: none
+		sourceColumn: Country
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 8eec6ca8-1d52-45f8-8dc9-7ab2db4e7749
+		summarizeBy: none
+		sourceColumn: Region
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PostalCode
+		dataType: string
+		lineageTag: b2a7f0fe-cb93-4703-bd4a-1235774da919
+		summarizeBy: none
+		sourceColumn: PostalCode
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Phone
+		dataType: string
+		lineageTag: 52aba308-40c2-4032-90b6-bbfc2dcdb8d9
+		summarizeBy: none
+		sourceColumn: Phone
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Email
+		dataType: string
+		lineageTag: 68e923bc-a6b5-44d8-89ae-cfa37ee615a5
+		summarizeBy: none
+		sourceColumn: Email
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column InvoiceID
+		dataType: int64
+		formatString: 0
+		lineageTag: 856cde22-4e74-4b67-9835-f48e8955fa2f
+		summarizeBy: count
+		sourceColumn: InvoiceID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column InvoiceDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 61fc8b77-7b94-47bd-8d66-f4c8f3433a69
+		summarizeBy: none
+		sourceColumn: InvoiceDate
+
+		variation Variation
+			isDefault
+			relationship: 81618204-e87a-4066-b6d3-efd644c76629
+			defaultHierarchy: LocalDateTable_4a1ded5b-ba8e-4cff-9bbe-2e0bcb064266.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnitPrice
+		dataType: double
+		lineageTag: f709b1f4-129f-49bd-9fda-4f15a8d8af55
+		summarizeBy: sum
+		sourceColumn: UnitPrice
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: cf945ab0-37c1-496f-abf1-4ff8bba8fdaf
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Artist
+		dataType: string
+		lineageTag: b71d5570-c8c7-4049-8e2d-ad9872fcac55
+		summarizeBy: none
+		sourceColumn: Artist
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Album
+		dataType: string
+		lineageTag: 1e8a8a09-9d3d-4091-8e4f-68ead29a186d
+		summarizeBy: none
+		sourceColumn: Album
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Track
+		dataType: string
+		lineageTag: 7c7d623f-ba9d-42c0-aa15-98e30ab94bc3
+		summarizeBy: none
+		sourceColumn: Track
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Composer
+		dataType: string
+		lineageTag: 1d3af16c-09a9-4f4a-9549-22920ef5ab26
+		summarizeBy: none
+		sourceColumn: Composer
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Milliseconds
+		dataType: int64
+		formatString: 0
+		lineageTag: b768c993-551e-4c5f-9085-2994420766b3
+		summarizeBy: sum
+		sourceColumn: Milliseconds
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Bytes
+		dataType: int64
+		formatString: 0
+		lineageTag: f732c148-c33e-4721-9513-2e16eae0fa96
+		summarizeBy: sum
+		sourceColumn: Bytes
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MediaType
+		dataType: string
+		lineageTag: 7e80bf37-3907-4199-9a2f-c637be6cf437
+		summarizeBy: none
+		sourceColumn: MediaType
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genre
+		dataType: string
+		lineageTag: 7fed01cb-45f7-4371-b582-8ffdc60b52e7
+		summarizeBy: none
+		sourceColumn: Genre
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Revenue
+		dataType: double
+		lineageTag: 38f84c3a-11bc-463e-a393-c890b090f317
+		summarizeBy: sum
+		sourceColumn: Revenue
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Revenue' = SUM('Music Sales'[Revenue])
+		formatString: "$"#,0.00
+		lineageTag: c6401f8e-77c1-414e-bc33-a003a8622210
+
+	measure 'Units Sold' = SUM('Music Sales'[Quantity])
+		formatString: #,0
+		lineageTag: b1bf4e26-522e-421f-8056-d8ef84c43480
+
+	measure 'Customers' = DISTINCTCOUNT('Music Sales'[CustomerID])
+		formatString: #,0
+		lineageTag: 2efba428-8150-4e85-a6a2-38dfab55837f
+
+	measure 'Orders' = DISTINCTCOUNT('Music Sales'[InvoiceID])
+		formatString: #,0
+		lineageTag: 4afe4c42-c186-4a59-b423-d55a38014fee
+
+	measure 'Average Order Value' = DIVIDE([Total Revenue], [Orders])
+		formatString: "$"#,0.00
+		lineageTag: 4415f71f-7a4c-45da-8b5e-2105468a82de
+
+	measure 'Revenue per Customer' = DIVIDE([Total Revenue], [Customers])
+		formatString: "$"#,0.00
+		lineageTag: 92bd0e40-cb8e-4f1a-843e-85e5ec0362ba
+
+	measure 'Items per Order' = DIVIDE([Units Sold], [Orders])
+		formatString: 0.0
+		lineageTag: 87762b6c-1e0b-4a1a-8bce-d5b2a05a2d94
+
+	measure 'Orders per Customer' = DIVIDE([Orders], [Customers])
+		formatString: 0.0
+		lineageTag: a569944f-c9e2-46dd-82ae-7be8f7242d69
+
+	measure 'Unique Artists' = DISTINCTCOUNT('Music Sales'[Artist])
+		formatString: #,0
+		lineageTag: 0fe41af4-c6d3-497e-89c0-a486b904a925
+
+	measure 'Unique Tracks' = DISTINCTCOUNT('Music Sales'[Track])
+		formatString: #,0
+		lineageTag: b38e0087-4a35-4695-baff-8309deeaa3b0
+
+	measure 'Unique Genres' = DISTINCTCOUNT('Music Sales'[Genre])
+		formatString: #,0
+		lineageTag: fb260b5a-12b0-446f-92e6-b8e2271b75b7
+
+	measure 'Unique Countries' = DISTINCTCOUNT('Music Sales'[Country])
+		formatString: #,0
+		lineageTag: a47e9816-0f14-411f-a37b-885965725344
+
+	measure 'Average Unit Price' = DIVIDE([Total Revenue], [Units Sold])
+		formatString: "$"#,0.00
+		lineageTag: 529978ed-4fe0-45f4-89f2-527e6f06924e
+
+	measure 'Customer Repeat Rate' = DIVIDE(COUNTROWS(FILTER(VALUES('Music Sales'[CustomerID]), CALCULATE(DISTINCTCOUNT('Music Sales'[InvoiceID])) > 1)), [Customers])
+		formatString: 0.0%
+		lineageTag: 64040ef5-0d47-495f-b162-dfcddae00284
+
+	partition 'Music Sales' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\MusicStorePortfolio\Data\MusicStore.xlsx"), null, true),
+				    #"Music Sales_Sheet" = Source{[Item="Music Sales",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Music Sales_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CustomerID", Int64.Type}, {"FirstName", type text}, {"LastName", type text}, {"Company", type text}, {"City", type text}, {"State", type text}, {"Country", type text}, {"Region", type text}, {"PostalCode", type text}, {"Phone", type text}, {"Email", type text}, {"InvoiceID", Int64.Type}, {"InvoiceDate", type datetime}, {"UnitPrice", type number}, {"Quantity", Int64.Type}, {"Artist", type text}, {"Album", type text}, {"Track", type text}, {"Composer", type text}, {"Milliseconds", Int64.Type}, {"Bytes", Int64.Type}, {"MediaType", type text}, {"Genre", type text}}),
+				    #"Inserted Multiplication" = Table.AddColumn(#"Changed Type", "Multiplication", each [UnitPrice] * [Quantity], type number),
+				    #"Renamed Columns" = Table.RenameColumns(#"Inserted Multiplication",{{"Multiplication", "Revenue"}})
+				in
+				    #"Renamed Columns"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

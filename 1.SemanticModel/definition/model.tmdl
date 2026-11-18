@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ru-RU
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Music Sales"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Music Sales'
+ref table DateTableTemplate_38025a53-0ee8-43dc-9284-86ee37d495a7
+ref table LocalDateTable_4a1ded5b-ba8e-4cff-9bbe-2e0bcb064266
+
+ref cultureInfo en-US
+

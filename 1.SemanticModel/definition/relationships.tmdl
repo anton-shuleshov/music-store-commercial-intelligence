@@ -1,0 +1,5 @@
+relationship 81618204-e87a-4066-b6d3-efd644c76629
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Music Sales'.InvoiceDate
+	toColumn: LocalDateTable_4a1ded5b-ba8e-4cff-9bbe-2e0bcb064266.Date
+

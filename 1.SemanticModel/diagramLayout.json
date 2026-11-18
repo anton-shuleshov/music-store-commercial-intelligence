@@ -1,0 +1,35 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 245.87337008657073,
+            "y": 35
+          },
+          "nodeIndex": "Music Sales",
+          "nodeLineageTag": "41275502-cab9-474a-ac6b-7c707b074138",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 80,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
