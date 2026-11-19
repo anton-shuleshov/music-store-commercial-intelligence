@@ -18,8 +18,8 @@ An interactive, three-page **Power BI business intelligence portfolio project** 
 |:---:|:---:|:---:|
 | ![Executive Overview dashboard](1.png) | ![Customer Intelligence dashboard](2.png) | ![Catalog and Genre Insights dashboard](3.png) |
 
-**Download the interactive report:** [`1.pbix`](1.pbix)  
-**View the static report:** [`1.pdf`](1.pdf)
+**Download the interactive report:** [`1.pbix` — Power BI Desktop report](1.pbix)  
+**View the static report:** [`1.pdf` — PDF report](1.pdf)
 
 > Screenshots and figures reflect the report's current dataset and default filter context. Interactive selections can change the displayed values.
 
@@ -204,7 +204,7 @@ music-store-commercial-intelligence/
 
 **Anton Shuleshov**  
 Data Analytics & Business Intelligence Portfolio  
-[GitHub profile](https://github.com/anton-shuleshov)
+[GitHub profile](https://github.com/anton-shuleshov) · [LinkedIn](https://www.linkedin.com/in/antonshuleshov/)
 
 *This project demonstrates the translation of transactional data into accessible commercial insights through a structured, interactive Power BI report.*
 
